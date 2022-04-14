@@ -9,4 +9,5 @@
 2. @Configuration(proxyBeanMethods = true) 찾아보기
    CGLIB Proxy를 사용한다.
    Bean 간의 참조를 허용한다.
+3. 
    인스턴스 호출 시 메서드를 가로채서 한번 호출되고 싱글톤으로 인스턴스를 생성한다. 이것이 핵심이다.
