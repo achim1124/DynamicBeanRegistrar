@@ -6,6 +6,7 @@
    2. 다른 bean이 초기화(instance)화 전이기 때문에 다른 bean 사용 못함.
 4. bean instance(초기화)... (어디서 하는지 찾아 보자)
 5. Dependence Injection 의존성 주입... (어디서 하는지 찾아 보자)
+   1. 4 번 행위를 같이 하나?
 6. 
 7. BeanPostProcessor 가 호출되는 시점에는 모든 bean이 초기화(instance) 된 상태이므로 applicationContext에서 자유롭게 bean을 꺼내 쓸수 있다.
 8. BeanPostProcessor.postProcessBeforeInitialization
