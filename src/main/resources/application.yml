@@ -1,0 +1,3 @@
+spring:
+  main:
+    allow-bean-definition-overriding: false # 동일한 이름의 bean을 오버라이드 할것인지 여부 ( 기본은 false로 동일명의 bean명을 허용 하지 않는다)
